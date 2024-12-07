@@ -13,5 +13,8 @@ public class Main {
         // Calculates the area (method overloading)
         System.out.println("The area of circle is " + AreaCalculator.Area(4));
         System.out.println("The area of rectangle is " + AreaCalculator.Area(2, 3));
+
+        // Minutes to year and days
+        MinutesToYearsDays.printYearsAndDays(525600);
     }
 }
