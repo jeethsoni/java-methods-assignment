@@ -1,13 +1,13 @@
 public class MinutesToYearsDays {
-    public static void printYearsAndDays(long mintues){
-        if (mintues <= 0){
+    public static void printYearsAndDays(long minutes){
+        if (minutes <= 0){
             System.out.println("Minutes cannot be negative or zero");
         }
 
-        long year = mintues / 525600;
-        long remainingMinutes = mintues % 525600;
+        long year = minutes / 525600;
+        long remainingMinutes = minutes % 525600;
         long day = remainingMinutes / 1440;
 
-        System.out.println((mintues + "minutes is " + year + " years and " + day + " days"));
+        System.out.println((minutes + "minutes is " + year + " years and " + day + " days"));
     }
 }
